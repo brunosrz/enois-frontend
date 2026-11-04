@@ -30,7 +30,7 @@ Plataforma de networking profissional focada em conexões humanas autênticas, m
 ```bash
 npm run dev      # Inicia ambiente local
 npm run build    # Build de produção
-npm run preview  # Serve build localmente
+npm run preview  # Build node-server do Nitro + servidor local na porta 4173
 npm run lint     # ESLint
 npm run format   # Prettier
 ```
@@ -42,7 +42,7 @@ npm run format   # Prettier
 
 ## Estrutura de Diretórios
 
-```
+```text
 src/
 ├── server.ts                    # Entry point SSR
 ├── start.ts                     # TanStack Start instance
